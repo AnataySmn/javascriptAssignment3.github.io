@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  #new-todo {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #333;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  #add-todo {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #add-todo:hover {
+    background-color: #555;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+  }
+  
+  li {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  li label {
+    flex: 1;
+  }
+  
+  li button {
+    font-size: 16px;
+    padding: 10px 20px;
+    background-color: #ff4136;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  li button:hover {
+    background-color: #ff725c;
+  }
+  .deleted {
+    opacity: 0;
+    transition: opacity 2s ease-out;
+    /* Add the red color to deleted items */
+    color: #FF6347;
+  }
+  .checked {
+    text-decoration: line-through;
+    /* Add the green color to checked items */
+    color: #3CB371;
+  }
+  
